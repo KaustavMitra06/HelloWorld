@@ -7,6 +7,7 @@ public class Utility {
 		System.out.println("Goodbye, cruel world!");
 	}
 	else {
+		assert false : "Expected 'hello' or 'goodbye'";
 		System.out.println("Expected 'hello' or 'goodbye'");
 	}
     }
